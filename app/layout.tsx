@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
     title: "Abaseen's Work",
-    description: "",
+    description: "A site made to show off my skills.",
 };
 
 export default function RootLayout({

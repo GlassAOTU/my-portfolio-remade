@@ -19,8 +19,8 @@ export default function StratusAppPage() {
                 </section>
 
                 <section className='flex flex-col gap-4'>
-                    <p>I'm designing and building Stratus, an iOS application that generates immersive ambient soundscapes based on real-time weather conditions. The app pairs watercolor-style backgrounds with dynamically layered audio that shifts with the weather and time of day, providing a calming, atmospheric experience. Users can search by location, save favorites, and revisit recent searches seamlessly.</p>
-                    <p>The app is being developed in SwiftUI with an MVVM architecture, using SwiftData for persistence. Ambient sounds are mixed on-device rather than relying on pre-rendered files, reducing storage requirements while allowing flexible, real-time audio adaptation. Stratus brings together UI/UX design, API integration, and mobile performance optimization into a polished, ready-to-use app.</p>
+                    <p>{"I'm designing and building Stratus, an iOS application that generates immersive ambient soundscapes based on real-time weather conditions. The app pairs watercolor-style backgrounds with dynamically layered audio that shifts with the weather and time of day, providing a calming, atmospheric experience. Users can search by location, save favorites, and revisit recent searches seamlessly."}</p>
+                    <p>{"The app is being developed in SwiftUI with an MVVM architecture, using SwiftData for persistence. Ambient sounds are mixed on-device rather than relying on pre-rendered files, reducing storage requirements while allowing flexible, real-time audio adaptation. Stratus brings together UI/UX design, API integration, and mobile performance optimization into a polished, ready-to-use app."}</p>
                 </section>
 
             </div>

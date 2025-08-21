@@ -22,9 +22,9 @@ export default function CreamBakeryPage() {
 
                 <section className='flex flex-col gap-4'>
 
-                    <p>I’m currently working on expanding Cream Bakery’s online presence into a full digital ordering and management system. The first step is setting up the customer-facing side: a clean product catalog, a custom cake order form, a cart and checkout flow, and a simple way for customers to track their orders after purchase. On the backend, I’m building an admin dashboard that lets the bakery easily add products, update availability, and manage incoming orders without needing extra tools. The idea is to make the ordering process smooth for both customers and the bakery staff.</p>
+                    <p>{"I’m currently working on expanding Cream Bakery’s online presence into a full digital ordering and management system. The first step is setting up the customer-facing side: a clean product catalog, a custom cake order form, a cart and checkout flow, and a simple way for customers to track their orders after purchase. On the backend, I’m building an admin dashboard that lets the bakery easily add products, update availability, and manage incoming orders without needing extra tools. The idea is to make the ordering process smooth for both customers and the bakery staff."}</p>
 
-                    <p>I’m also laying the groundwork so this system could eventually scale into a SaaS platform for other bakeries. Even though I’m only focusing on Cream Bakery right now, I’m structuring it in a way that could later support multiple bakeries with their own storefronts. In short, this project isn’t just about getting Cream Bakery online—it’s also about building a foundation that can grow into a much bigger platform.</p>
+                    <p>{"I’m also laying the groundwork so this system could eventually scale into a SaaS platform for other bakeries. Even though I’m only focusing on Cream Bakery right now, I’m structuring it in a way that could later support multiple bakeries with their own storefronts. In short, this project isn’t just about getting Cream Bakery online—it’s also about building a foundation that can grow into a much bigger platform."}</p>
 
                 </section>
 

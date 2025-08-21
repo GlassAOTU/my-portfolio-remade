@@ -22,11 +22,11 @@ export default function NeighborhoodPinsPage() {
 
                 <section className='flex flex-col gap-4'>
 
-                    <p>NeighborhoodPins was designed as a real utility, inspired by Waze’s community traffic reports. The goal is to give local residents an easy way to surface and track road issues like potholes and hazards, making it possible to share updates directly on a live, community map.</p>
+                    <p>{"NeighborhoodPins was designed as a real utility, inspired by Waze’s community traffic reports. The goal is to give local residents an easy way to surface and track road issues like potholes and hazards, making it possible to share updates directly on a live, community map."}</p>
 
                     <Image src="/branding/neighborhoodpins/neighborhoodpins-reports.png" className="rounded-md" alt="screenshot of the site functionality" width={917} height={187} />
 
-                    <p>Users can drop pins for issues, search by location, and filter or sort results to focus on what’s most relevant. Each user can remove their own submissions, and the app also includes town contact information so problems can be escalated quickly. Together, these tools make the map both a reporting platform and a reference hub for staying informed.</p>
+                    <p>{"Users can drop pins for issues, search by location, and filter or sort results to focus on what’s most relevant. Each user can remove their own submissions, and the app also includes town contact information so problems can be escalated quickly. Together, these tools make the map both a reporting platform and a reference hub for staying informed."}</p>
 
                     <Image src="/branding/neighborhoodpins/neighborhoodpins-popup.png" className="rounded-md" alt="screenshot of the site functionality" width={917} height={232} />
 

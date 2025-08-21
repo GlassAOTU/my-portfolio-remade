@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ProjectsPage() {
     return (
@@ -6,8 +7,8 @@ export default function ProjectsPage() {
             <div className='flex flex-col max-w-3xl mx-auto space-y-6'>
 
                 <nav className='space-x-12 py-8 text-sm'>
-                    <a href="/" className="text-stone-500 hover:text-stone-300 transition-all">Home</a>
-                    <a href="/projects">Projects</a>
+                    <Link href="/" className="text-stone-500 hover:text-stone-300 transition-all">Home</Link>
+                    <Link href="/projects">Projects</Link>
                 </nav>
 
                 {/* web apps */}
@@ -56,7 +57,7 @@ export default function ProjectsPage() {
 
                                 {/* relevant links */}
                                 <div className='flex gap-3'>
-                                    <a href="/projects/cream" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all'>Learn more</a>
+                                    <Link href="/projects/cream" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all'>Learn more</Link>
                                     {/* <a href="/" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all flex flex-row items-center justify-center gap-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></svg>
                                         Visit
@@ -102,11 +103,11 @@ export default function ProjectsPage() {
 
                                 {/* relevant links */}
                                 <div className='flex gap-3'>
-                                    <a href="/projects/bento" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all'>Learn more</a>
-                                    <a href="https://www.bentoanime.com/" target="_blank" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all flex flex-row items-center justify-center gap-2'>
+                                    <Link href="/projects/bento" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all'>Learn more</Link>
+                                    <Link href="https://www.bentoanime.com/" target="_blank" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all flex flex-row items-center justify-center gap-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></svg>
                                         Visit
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -149,11 +150,11 @@ export default function ProjectsPage() {
 
                                 {/* relevant links */}
                                 <div className='flex gap-3'>
-                                    <a href="/projects/neighborhoodpins" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all'>Learn more</a>
-                                    <a href="https://www.neighborhoodpins.com/" target="_blank" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all flex flex-row items-center justify-center gap-2'>
+                                    <Link href="/projects/neighborhoodpins" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all'>Learn more</Link>
+                                    <Link href="https://www.neighborhoodpins.com/" target="_blank" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all flex flex-row items-center justify-center gap-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></svg>
                                         Visit
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -204,7 +205,7 @@ export default function ProjectsPage() {
 
                                 {/* relevant links */}
                                 <div className='flex gap-3'>
-                                    <a href="/projects/stratus" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all'>Learn more</a>
+                                    <Link href="/projects/stratus" className='flex-1 text-center outline outline-stone-700/50 py-0.5 rounded hover:bg-stone-300 hover:text-stone-700 transition-all'>Learn more</Link>
                                 </div>
                             </div>
                         </div>

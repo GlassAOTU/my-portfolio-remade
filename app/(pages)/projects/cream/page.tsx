@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function CreamBakeryPage() {
     return (
@@ -6,8 +7,8 @@ export default function CreamBakeryPage() {
             <div className='flex flex-col max-w-3xl mx-auto space-y-6'>
 
                 <nav className='space-x-12 py-8 text-sm'>
-                    <a href="/" className="text-stone-500 hover:text-stone-300 transition-all">Home</a>
-                    <a href="/projects" className="text-stone-300">Projects</a>
+                    <Link href="/" className="text-stone-500 hover:text-stone-300 transition-all">Home</Link>
+                    <Link href="/projects" className="text-stone-300">Projects</Link>
                 </nav>
 
                 <Image src="/branding/cream/cream-header.png" alt="bento anime header" width={1451} height={648} className="rounded-md" />

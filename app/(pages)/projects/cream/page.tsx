@@ -8,7 +8,7 @@ export default function CreamBakeryPage() {
 
                 <nav className='space-x-12 py-8 text-sm'>
                     <Link href="/" className="text-stone-500 hover:text-stone-300 transition-all">Home</Link>
-                    <Link href="/projects" className="text-stone-300">Projects</Link>
+                    {/* <Link href="/projects" className="text-stone-300">Projects</Link> */}
                 </nav>
 
                 <Image src="/branding/cream/cream-header.png" alt="bento anime header" width={1451} height={648} className="rounded-md" />

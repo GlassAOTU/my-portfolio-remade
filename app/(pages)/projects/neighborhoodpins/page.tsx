@@ -8,7 +8,7 @@ export default function NeighborhoodPinsPage() {
 
                 <nav className='space-x-12 py-8 text-sm'>
                     <Link href="/" className="text-stone-500 hover:text-stone-300 transition-all">Home</Link>
-                    <Link href="/projects" className="text-stone-300">Projects</Link>
+                    {/* <Link href="/projects" className="text-stone-300">Projects</Link> */}
                 </nav>
 
                 <Image src="/branding/neighborhoodpins/neighborhoodpins-map.png" alt="neighborhoodpins header" width={1451} height={648} className="rounded-md" />
